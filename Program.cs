@@ -30,9 +30,9 @@ namespace  Atividade
             Console.WriteLine("Endereço ......: " + pf.endereco);
             Console.WriteLine("CPF ...........: " + pf.cpf);
             Console.WriteLine("RG ............: " + pf.rg);
-            Console.WriteLine("Valor de Compra: " + pf.valor.ToSring("c"));
-            Console.WriteLine("Imposto .......: " + pf.valor_imposto.ToSring("c"));
-            Console.WriteLine("Total a Pagar..: " + pf.total.ToSring("c"));
+            Console.WriteLine("Valor de Compra: " + pf.valor.ToString("c"));
+            Console.WriteLine("Imposto .......: " + pf.valor_imposto.ToString("c"));
+            Console.WriteLine("Total a Pagar..: " + pf.total.ToString("c"));
             }
             if(var_tipo == "J")
             {
@@ -51,9 +51,9 @@ namespace  Atividade
             Console.WriteLine("Endereço ......: " + pj.endereco);
             Console.WriteLine("CJPJ ..........: " + pj.cnpj);
             Console.WriteLine("IE ............: " + pj.ie);
-            Console.WriteLine("Valor de Compra: " + pj.valor.ToSring("c"));
-            Console.WriteLine("Imposoto ......: " + pj.valor_imposto.ToSring("c"));
-            Console.WriteLine("Total a Pagar..: " + pj.total.ToSring("c"));
+            Console.WriteLine("Valor de Compra: " + pj.valor.ToString("c"));
+            Console.WriteLine("Imposoto ......: " + pj.valor_imposto.ToString("c"));
+            Console.WriteLine("Total a Pagar..: " + pj.total.ToString("c"));
             }
 
         }
